@@ -8,11 +8,15 @@ import MenuItem from '../MenuItem/MenuItem.jsx'
 const App = () => {
     return (
         <>
-            <Header/>
-            <Description/>
-            <Main/>
-            <Logo/>
-            <MenuItem/>
+             <div className="container px-3 mx-auto">
+                <Header>
+                    <MenuItem/>
+                </Header>
+                <Main>
+                    <Description/>
+                    <Logo/>
+                </Main>
+            </div>
         </>
     )
 }

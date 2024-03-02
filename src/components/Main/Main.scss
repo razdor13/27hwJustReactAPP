@@ -1,0 +1,21 @@
+main {
+    color: black;
+    padding: 0 20px 0 20px;
+    margin-top: 7px;
+    border-radius: 10px;
+    height: 100%;
+    background-image: radial-gradient(#d9c8fd 0%, #e5fffb 100%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    
+        
+        
+}
+.div101 { grid-area: 1 / 1 / 2 / 2; }
+.div102 { 
+    padding: 5px;
+    grid-area: 1 / 2 / 2 / 3;
+    max-height: 100%;
+
+}

@@ -7,7 +7,10 @@ const Description = () => {
 
     return (
         <>
-            DESCRIPTION
+            <section>
+                <h1>Greetings friends </h1>
+                <div>BUY A BURGER!!! ====&gt;&gt;&gt; </div>
+            </section>
         </>
     )
 }
