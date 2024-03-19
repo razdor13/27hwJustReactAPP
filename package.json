@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://razdor13.github.io/27hwJustReactAPP",
   "scripts": {
     "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -43,6 +44,8 @@
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3",
     "url": "^0.11.3",
     "ws": "^8.16.0"
   }

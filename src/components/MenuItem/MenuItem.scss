@@ -1,4 +1,9 @@
 nav {
     display: flex;
     gap: 20px;
+    transition: all 0.3s ease; /* Анімація зміни розміру кнопки */
+}
+
+.active {
+    transform: scale(1.2); /* Збільшення розміру кнопки, коли вона активна */
 }

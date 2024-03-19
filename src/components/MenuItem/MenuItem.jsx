@@ -1,18 +1,17 @@
-import '../MenuItem/MenuItem.scss'
-
+import '../MenuItem/MenuItem.scss';
+import { NavLink } from 'react-router-dom';
 
 const MenuItem = () => {
-
     return (
         <>
            <nav>
-                <button type="button" className="btn btn-primary">Main</button>
-                <button type="button" className="btn btn-secondary">Questions</button>
-                <button type="button" className="btn btn-success">Matirial</button>
-                <button type="button" className="btn btn-danger">Contact</button>
+                <NavLink to="/" className="btn btn-primary" activeClassName="active">Main</NavLink>
+                <NavLink to="/questions" className="btn btn-secondary" activeClassName="active">Questions</NavLink>
+                <NavLink to="/material" className="btn btn-success" activeClassName="active">Material</NavLink>
+                <NavLink to="/contact" className="btn btn-danger" activeClassName="active">Contact</NavLink>
             </nav>
         </>
-    )
-}
+    );
+};
 
-export default MenuItem
+export default MenuItem;
